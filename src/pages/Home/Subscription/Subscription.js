@@ -7,7 +7,7 @@ const Subscription = () => {
     };
     return (
 
-        <div className="d-flex subscription-container justify-content-between align-items-center">
+        <div className="d-flex flex-wrap py-5 subscription-container justify-content-between align-items-center">
             <div className="text-white">
                 <h3 className="fw-bold">Subscribe to Our Newsletter</h3>
                 <p>Please provide your email to subscribe. Don't worry! We hate spam too.</p>

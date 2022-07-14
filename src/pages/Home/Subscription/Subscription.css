@@ -1,7 +1,7 @@
 .subscription-container {
     padding: 0 6rem;
     min-height: 40vh;
-    height: 35vh;
+    /* height: 35vh; */
     background-color: #016394;
     background-image: url('../../../images/subscribe.jpg');
     background-blend-mode: overlay;

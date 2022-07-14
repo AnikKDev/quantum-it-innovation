@@ -8,7 +8,8 @@ const Services = () => {
     return (
         <div className="my-5 service-container">
             <div className="text-center">
-                <h3 className="fw-bold">Our Services</h3>
+                <h3 className="fw-bold ">Our Services</h3>
+                <div className="service-line mx-auto"></div>
                 <p>
                     We have experties on the similar field we are working to. And we are commited to provide best service possible to our client
                 </p>
@@ -22,8 +23,7 @@ const Services = () => {
                         <Card.Body>
                             <Card.Title>Financial Consulting</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, hic nemo officia doloremque facere asperiores! Aut repudiandae ipsum blanditiis. Tenetur.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -36,8 +36,7 @@ const Services = () => {
                         <Card.Body>
                             <Card.Title>Content Marketing</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, hic nemo officia doloremque facere asperiores! Aut repudiandae ipsum blanditiis. Tenetur.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -50,8 +49,7 @@ const Services = () => {
                         <Card.Body>
                             <Card.Title>Finance Marketing</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, hic nemo officia doloremque facere asperiores! Aut repudiandae ipsum blanditiis. Tenetur.
                             </Card.Text>
                         </Card.Body>
                     </Card>

@@ -23,6 +23,6 @@ img {
 
 .play-icon {
     font-size: 6em;
-
+    cursor: pointer;
     color: #06A8FB;
 }
