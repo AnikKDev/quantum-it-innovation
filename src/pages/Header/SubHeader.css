@@ -1,0 +1,8 @@
+.navigation-container {
+    min-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
