@@ -16,8 +16,9 @@
 .nav-links a {
     color: black;
     margin: auto 5px;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #DB2D2E;
+    color: #06A6F8;
 }
