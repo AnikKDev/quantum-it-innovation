@@ -5,6 +5,8 @@ import { MdOutlineConstruction } from 'react-icons/md';
 import { AiOutlineAntCloud } from 'react-icons/ai';
 import { RiCustomerServiceFill } from 'react-icons/ri';
 import { MdContactSupport } from 'react-icons/md';
+import { AiFillPlayCircle } from 'react-icons/ai';
+
 // <FaBeer />
 const Experience = () => {
     return (
@@ -15,7 +17,9 @@ const Experience = () => {
                     <p className='text-muted pe-4'>We are providing the best service possible since the beginning of our journey. We have faced many obstacles but never we stopped. We provided what we commited to our clients. We are still providing what we are committed to.</p>
                     <button className="btn btn-primary">Know More</button>
                 </div>
-                <div className="col-md-4 home-img">
+                <div className="col-md-4 home-img position-relative">
+                    {/* position-absolute top-50 start-0 translate-middle */}
+                    <AiFillPlayCircle className="position-absolute top-50 start-0 translate-middle play-icon"></AiFillPlayCircle>
                     <img className='img-fluid' src={experienceImg} alt="" />
                 </div>
             </div>

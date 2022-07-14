@@ -20,3 +20,10 @@
 .exp-icon {
     font-size: 3em;
 }
+
+.play-icon {
+    font-size: 6em;
+    border-radius: 50%;
+    border: 5px solid white;
+    color: #06A8FB;
+}
