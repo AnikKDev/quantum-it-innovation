@@ -1,20 +1,20 @@
 .home-container {
     margin-top: 85px;
+    padding: 0 6rem;
 }
 
-.home-img img {
+img {
     border-radius: 5px;
 }
 
 .home-heading h1 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 3.6em;
+    font-size: 3em;
 }
 
 .home-heading h3 {
 
     font-family: 'Fira Sans', sans-serif;
-    font-size: 2.4em;
 }
 
 .exp-icon {
@@ -23,7 +23,6 @@
 
 .play-icon {
     font-size: 6em;
-    border-radius: 50%;
-    border: 5px solid white;
+
     color: #06A8FB;
 }

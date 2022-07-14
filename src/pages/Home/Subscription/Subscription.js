@@ -2,21 +2,24 @@ import React from 'react';
 import './Subscription.css';
 import { Form, Button } from 'react-bootstrap';
 const Subscription = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    };
     return (
 
-        <div className="d-flex justify-content-between">
-            <div>
-                <h3>Subscript Our Newsletter</h3>
-                <p>Please provide your email to subscript. Don't worry ! We hate spam too.</p>
+        <div className="d-flex subscription-container justify-content-between align-items-center">
+            <div className="text-white">
+                <h3 className="fw-bold">Subscribe to Our Newsletter</h3>
+                <p>Please provide your email to subscribe. Don't worry! We hate spam too.</p>
             </div>
             <div>
-                <Form>
+                <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Control style={{ width: '280px' }} type="email" placeholder="Enter email" />
                     </Form.Group>
-                    <Button variant="primary" type="submit">
-                        Submit
-                    </Button>
+                    <button className="click-btn" type="submit">
+                        Subscribe
+                    </button>
                 </Form>
             </div>
         </div>
